@@ -1,3 +1,45 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Environment files
+.env
+.env.*
+**/.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+
+# Lockfiles (keep one if you use a specific package manager)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Misc
+uploads/
+*.tgz
+*.sqlite
+
+# If you use Docker volumes or IDE specific state
+/.docker
 # Dependencies
 node_modules/
 */node_modules/
